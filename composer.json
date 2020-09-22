@@ -1,5 +1,5 @@
 {
-    "name": "reddes/mappable-models",
+    "name": "bporto94/mappable-models",
     "description": "A package of classes that help to fix some common problems found in laravel+oracle architecture, using eloquent models.",
     "type": "library",
     "authors": [
@@ -30,7 +30,7 @@
                 "Reddes\\MappableModels\\CoreServiceProvider"
             ],
             "aliases": {
-                "Core": "Reddes\\MappableModels\\CoreFacade"
+                "Core": "MappableModels\\CoreFacade"
             }
         }
     },
