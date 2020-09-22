@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Reddes\\MappableModels\\": "src/"
+            "Bporto94\\MappableModels\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Reddes\\MappableModels\\CoreServiceProvider"
+                "Bporto94\\MappableModels\\CoreServiceProvider"
             ],
             "aliases": {
                 "Core": "MappableModels\\CoreFacade"
